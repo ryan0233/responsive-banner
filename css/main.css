@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, serif;
-  background-image: linear-gradient;
+  background-image: linear-gradient(to top, rgba(73, 85, 98, .9));
 }
 
 .banner-content {
@@ -10,7 +10,7 @@ body {
 
 .btn {
   color: #fff;
-  border-color: #fff;
+  border-color: #97a49b;
   background-color: transparent;
   font-weight: bold;
 }
@@ -23,4 +23,35 @@ body {
 
 img {
   max-height: 500px;
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    text-align: left;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(73, 85, 98, .9),(rgba(73, 85, 98, .9));
+  }
+
+  .btn {
+    border-color: #fff;
+  }
+
+  .btn-right {
+    text-align: right;
+  }
+
+  .banner-content {
+    text-align: left;
+  }
 }
