@@ -1,9 +1,10 @@
 body {
   font-family: Georgia, serif;
+  background-image: linear-gradient;
 }
 
 .banner-content {
-  background-color: rgba(73, 85, 98, .9);
+  background-color: #495562;
   color: #fff;
 }
 
@@ -11,11 +12,13 @@ body {
   color: #fff;
   border-color: #fff;
   background-color: transparent;
+  font-weight: bold;
 }
 
 .btn:hover {
   background-color: #fff;
   border-color: #fff;
+  color: #495562;
 }
 
 img {

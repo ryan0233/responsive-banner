@@ -2,6 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Responsive Banner</title>
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
@@ -12,10 +13,12 @@
 
   <div class="banner">
     <img class="img-flex" src="images/earth-horizon.jpg" alt="">
-    <div class="banner-content">
-      <h1>The Planet Earth</h1>
-      <p>An amazingly species rich, varied climate planet, the third, and only habitable, planet in the Solar System, located about 25 000 ly from the Galactic Centre.</p>
-      <a class="btn btn-ghost" href="#">Book a star cruise</a>
+    <div class="grid banner-content push-1-2 gutter-1-2 pad-t-1-2 pad-b">
+      <div class="unit xs-1 s-1 m-1-2">
+        <h1 class="unit">The Planet Earth</h1>
+        <p class="unit">An amazingly species rich, varied climate planet, the third, and only habitable, planet in the Solar System, located about 25 000 ly from the Galactic Centre.</p>
+      </div>
+      <a class="btn btn-ghost unit xs-1 s-1 m-1-2" href="#">Book a star cruise</a>
     </div>
   </div>
 
